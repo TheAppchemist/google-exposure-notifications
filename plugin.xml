@@ -1,7 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="com.appchemy.exposurenotifications" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
-    <name>google-exposure-notifications</name>
-    <js-module name="google-exposure-notifications" src="www/google-exposure-notifications.js">
-        <clobbers target="cordova.plugins.google-exposure-notifications" />
-    </js-module>
-</plugin>
+<plugin id="com.appchemy.exposurenotifications" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android"><name>google-exposure-notifications</name><js-module name="google-exposure-notifications" src="www/google-exposure-notifications.js"><clobbers target="cordova.plugins.google-exposure-notifications" /></js-module><platform name="android"><config-file parent="/*" target="res/xml/config.xml"><feature name="google-exposure-notifications"><param name="android-package" value="com.appchemy.exposurenotifications.google-exposure-notifications" /></feature></config-file><config-file parent="/*" target="AndroidManifest.xml"></config-file><source-file src="src/android/google-exposure-notifications.java" target-dir="src/com/appchemy/exposurenotifications/google-exposure-notifications" /></platform></plugin>
