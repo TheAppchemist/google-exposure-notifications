@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="com.appchemy.exposurenotifications" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>google-exposure-notifications</name>
+    <js-module name="google-exposure-notifications" src="www/google-exposure-notifications.js">
+        <clobbers target="cordova.plugins.google-exposure-notifications" />
+    </js-module>
+</plugin>
